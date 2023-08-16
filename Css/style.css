@@ -197,22 +197,23 @@ body{
   }
   
   .logo .circle3 {
-    width: 80px;
+    width: 0px;
     transform: translate3d(0, 0, 80px);
     top: 23px;
     right: 23px;
     background: url('../Image/talha.jpg') no-repeat center center/cover;
-    display:none;
+    transition: 1.2;
   }
   
   .logo .circle4 {
-    width: 50px;
+    width: 0px;
     transform: translate3d(0, 0, 100px);
     top: 30px;
     right: 30px;
-    display: none;
+    display: grid;
     place-content: center;
     background: url('../Image/talha.jpg') no-repeat center center/cover;
+    transition: 1.6s;
   }
   
   .parent:hover .card {
@@ -229,12 +230,12 @@ body{
   }
 
   .parent:hover .card .logo .circle3 {
-    display: block;
+    width: 80px;
     animation: circle-3 0.5s linear 1.2s 1 forwards;
   }
   
   .parent:hover .card .logo .circle4 {
-    display: grid;
+    width: 50px;
     animation: circle-4 0.5s linear 1.6s 1 forwards;
   }
 
