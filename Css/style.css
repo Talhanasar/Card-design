@@ -201,7 +201,6 @@ body{
     transform: translate3d(0, 0, 80px);
     top: 23px;
     right: 23px;
-    transition-delay: 1.2s;
     background: url('../Image/talha.jpg') no-repeat center center/cover;
     display:none;
   }
@@ -213,7 +212,6 @@ body{
     right: 30px;
     display: none;
     place-content: center;
-    transition-delay: 1.6s;
     background: url('../Image/talha.jpg') no-repeat center center/cover;
   }
   
