@@ -202,7 +202,7 @@ body{
     top: 23px;
     right: 23px;
     background: url('../Image/talha.jpg') no-repeat center center/cover;
-    transition: all ease-in 1.2s;
+    transition: all ease-in 1s;
   }
   
   .logo .circle4 {
@@ -213,7 +213,7 @@ body{
     display: grid;
     place-content: center;
     background: url('../Image/talha.jpg') no-repeat center center/cover;
-    transition: all ease-in 1.6s;
+    transition: all ease-in 1.2s;
   }
   
   .parent:hover .card {
